@@ -26,7 +26,8 @@ public class DesafioAutomacaoTests extends DefaultTestConfigs{
 
     @AfterMethod
     public void tearDown(ITestResult result) throws Exception{
-        //driver.quit();
+        Thread.sleep(3000);
+	    driver.quit();
     }
 
     @Test

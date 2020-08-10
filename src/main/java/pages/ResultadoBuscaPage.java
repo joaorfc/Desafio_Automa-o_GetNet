@@ -10,7 +10,7 @@ public class ResultadoBuscaPage{
     private WebDriver driver;
     private DefaultActions actions;
 
-    //Como o elemento é link href
+    //Como o elemento é um link href a forma que consegui capturar o elemento foi percorrendo os nós até encontrar uma string que possuia o link que estaja desejando.
     By linkDesejado = By.xpath("//a[contains(., 'Como posso abrir uma conta SuperGet?')]");
     By mensagemModal = By.xpath("/html/body/div[20]/div/div[2]");
 
